@@ -19,12 +19,12 @@ pytestmark = pytest.mark.skipif(not grade_exchange,
 # Globals
 default_price = 100
 default_xfernum = 200
-default_totalmint = default_xfernum * 4
+default_totalmint = default_xfernum * 5
 default_maxtok = int(1e15)
 default_feepercent = 5
 
-default_initial_tokens = 100
-default_initial_eth = 200
+default_initial_tokens = 1000
+default_initial_eth = 2000
 
 
 def deploy_ru_exchange(account) -> RUExchange:
